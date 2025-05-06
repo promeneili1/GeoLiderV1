@@ -621,10 +621,12 @@ a,
                                             <h2 id="kontaktiraj" class="uui-heading-medium-2">Kontaktirajte nas</h2>
                                             <div class="uui-space-xsmall-2"></div>
                                             <div class="uui-contact05_form-wrapper w-form">
-                                                <form id="wf-form-Contact-05-form" name="wf-form-Contact-05-form"
-                                                    data-name="Contact 05 form" method="get" class="uui-contact05_form"
+                                                <form action="https://api.web3forms.com/submit" method="POST" id="wf-form-Contact-05-form" name="wf-form-Contact-05-form"
+                                                    data-name="Contact 05 form" class="uui-contact05_form"
                                                     data-wf-page-id="67c1c96b3febbfd0edc8b9e4"
                                                     data-wf-element-id="5da9bb5e-bec0-f6c2-833d-ede0660a94d6">
+                                                    <input type="hidden" name="access_key" value="e5bae2da-f3ff-4ae4-95b3-9a97b24b481b">
+                                                    <div id="result"></div>
                                                     <div class="uui-form-field-wrapper"><label for="Contact-05-name"
                                                             class="uui-field-label">Ime</label><input
                                                             class="uui-form_input w-input" maxlength="256"
@@ -655,14 +657,13 @@ a,
                                                             id="w-node-_5da9bb5e-bec0-f6c2-833d-ede0660a94eb-edc8b9e4"
                                                             class="uui-button-2 w-button" value="Pošalji Poruku" />
                                                     </div>
+                                                    
                                                 </form>
                                                 <div class="success-message w-form-done">
-                                                    <div class="success-text">Thank you! Your submission has been
-                                                        received!</div>
+                                                    <div class="success-text">Hvala Vam što ste nas kontaktirali</div>
                                                 </div>
                                                 <div class="error-message w-form-fail">
-                                                    <div class="error-text">Oops! Something went wrong while submitting
-                                                        the form.</div>
+                                                    <div class="error-text">Došlo je do greške</div>
                                                 </div>
                                             </div>
                                         </div>
@@ -733,6 +734,8 @@ a,
     <script src="script3.js"
         type="text/javascript"></script>
     <script src="script4.js"
+        type="text/javascript"></script>
+        <script src="script5.js"
         type="text/javascript"></script>
 </body>
 

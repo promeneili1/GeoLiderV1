@@ -3568,6 +3568,7 @@ figcaption {
   margin-right: auto;
   display: grid;
   height: 90px;
+  overflow: hidden;
   
 }
 
@@ -3581,7 +3582,7 @@ figcaption {
 
 .nav_logo {
   width: 14.3125rem;
-  margin-top: -30px;
+  margin-top: -130px;
   margin-bottom: 200px;
 }
 
@@ -3736,6 +3737,7 @@ figcaption {
   align-items: center;
   width: 100%;
   display: flex;
+  margin-top: 15px;
 }
 
 .footer_component {
