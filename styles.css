@@ -3737,7 +3737,7 @@ figcaption {
   align-items: center;
   width: 100%;
   display: flex;
-  margin-bottom: 15px;
+  /* margin-bottom: 1px; */
 }
 
 .footer_component {
