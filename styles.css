@@ -3582,7 +3582,8 @@ figcaption {
 .nav_logo {
   width: 14.3125rem;
   margin-top: -30px;
-  margin-bottom: 0;
+  margin-bottom: 200px;
+  margin-bottom: 0px;
 }
 
 .nav_menu {
@@ -3591,7 +3592,6 @@ figcaption {
   margin-left: auto;
   padding-right: 0;
   display: flex;
-  margin-bottom: 30px;
 }
 
 .nav_menu_link {
@@ -3737,6 +3737,7 @@ figcaption {
   align-items: center;
   width: 100%;
   display: flex;
+  margin-bottom: 30px;
 }
 
 .footer_component {
@@ -6370,6 +6371,7 @@ figcaption {
     position: fixed;
     inset: 80px 0% 0%;
     overflow: auto;
+    margin-bottom: 30px;
   }
 
   .nav_menu_link {
@@ -8303,8 +8305,9 @@ figcaption {
 
   .image {
     text-align: left;
-    margin-left: 60px;
-    margin-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
   }
 
   .heading-2 {
