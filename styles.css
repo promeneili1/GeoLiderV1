@@ -1825,6 +1825,7 @@ textarea.w-input, textarea.w-select {
   text-decoration: none;
   display: inline-block;
   position: relative;
+  padding: 10px 20px;
 }
 
 .w-nav-link.w--current {
@@ -3568,8 +3569,6 @@ figcaption {
   margin-right: auto;
   display: grid;
   height: 90px;
-  overflow: hidden;
-  
 }
 
 .nav_brand {
@@ -3582,8 +3581,8 @@ figcaption {
 
 .nav_logo {
   width: 14.3125rem;
-  margin-top: -130px;
-  margin-bottom: 200px;
+  margin-top: -30px;
+  margin-bottom: 0;
 }
 
 .nav_menu {
@@ -3592,10 +3591,12 @@ figcaption {
   margin-left: auto;
   padding-right: 0;
   display: flex;
+  margin-bottom: 30px;
 }
 
 .nav_menu_link {
   color: #fffc;
+  object-fit: fill;
   border-bottom: 2px solid #0000;
   padding: .5rem 1rem;
   font-weight: 500;
@@ -3732,12 +3733,10 @@ figcaption {
 }
 
 .nav_menu_container {
-  margin-bottom: 230px;
   justify-content: space-between;
   align-items: center;
   width: 100%;
   display: flex;
-  margin-top: 15px;
 }
 
 .footer_component {
@@ -5715,6 +5714,7 @@ figcaption {
 .gallery-slider {
   aspect-ratio: auto;
   border: 1px solid #0000;
+  height: auto;
   margin-top: 75px;
   padding: 80px 30px;
   position: relative;
@@ -6050,6 +6050,7 @@ figcaption {
 }
 
 .uui-padding-vertical-xhuge-2 {
+  height: auto;
   padding-top: 7rem;
   padding-bottom: 7rem;
 }
@@ -6064,6 +6065,15 @@ figcaption {
   width: 200px;
   height: 200px;
   display: inline-flex;
+}
+
+.section {
+  width: 1px;
+  height: 0;
+}
+
+.section-2 {
+  height: 1px;
 }
 
 @media screen and (min-width: 1280px) {
@@ -7766,6 +7776,7 @@ figcaption {
   }
 
   .text-color-alternate {
+    text-align: left;
     font-size: 2rem;
   }
 
@@ -8280,11 +8291,29 @@ figcaption {
   }
 
   .heading {
+    text-align: left;
+    flex: 0 auto;
     margin-top: -3rem;
+    padding-right: 0;
   }
 
   .uui-contact05_component {
     grid-template-columns: 1fr;
+  }
+
+  .image {
+    text-align: left;
+    margin-left: 60px;
+    margin-right: 0;
+  }
+
+  .heading-2 {
+    text-align: left;
+    padding-left: 15px;
+  }
+
+  .paragraph-2 {
+    padding-left: 15px;
   }
 }
 
